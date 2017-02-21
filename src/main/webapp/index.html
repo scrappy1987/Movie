@@ -5,8 +5,13 @@
     <title>Movie application</title>
 </head>
 <body>
+<ul>
+    <li ><a ui-sref="dashboard">Dashboard</a></li>
+    <li><a ui-sref="addmovie">Add movie</a></li>
+    <li><a ui-sref="getmovie">Get movies</a></li>
+</ul>
 
-    <h1>{{4 + 4}}</h1>
+    <div ui-view></div>
     <!-- Angular modules-->
     <script src="scripts/angular.min.js"></script>
     <script src="scripts/ui-router.min.js"></script>

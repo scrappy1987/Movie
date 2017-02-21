@@ -1,3 +1,8 @@
-/**
- * Created by JGordon on 20/02/2017.
- */
+(function() {
+
+    var AddMovieController =  function() {
+        var vm = this;
+    };
+
+    angular.module('movieApp').controller('addMovieController', [AddMovieController]);
+}());
