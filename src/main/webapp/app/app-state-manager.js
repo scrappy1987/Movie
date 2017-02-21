@@ -4,7 +4,7 @@
 
     angular.module('movieApp').config(function ($stateProvider, $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise("/dashboard");
+        $urlRouterProvider.otherwise("/getmovie");
 
         $stateProvider.state("dashboard", {
             url: "/dashboard",
